@@ -12,7 +12,7 @@ class Test(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
 
-        ser = Service("C:\\Users\\manoh\\Downloads\\chromedriver_win32\\chromedriver.exe")
+        ser = Service("C:\\drivers\\chromedriver_win32 (3)\\chromedriver.exe")
         cls.driver = webdriver.Chrome(service=ser)
         cls.driver.maximize_window()
         cls.driver.implicitly_wait(15)
